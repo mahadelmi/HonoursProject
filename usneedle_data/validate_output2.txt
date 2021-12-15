@@ -1,0 +1,392 @@
+IP Novices T: [5, 17, 35, 37]
+IP Experts T: [6, 4]
+IP Novices V: [27, 29, 1, 31]
+IP Experts V: [3, 2]
+OOP Novices T: [30, 32, 18, 34]
+OOP Experts T: [5, 1]
+OOP Novices V: [16, 24, 12, 20]
+OOP Experts V: [4, 2]
+IP Novice Train['N3', 'N7', 'N9', 'N11', 'N13', 'N15', 'N19', 'N21', 'N25', 'N33', 'N39']
+IP Novice Test['N5', 'N17', 'N35', 'N37']
+IP Novice Val['N1', 'N27', 'N29', 'N31']
+IP Expert Train['E1_2', 'E3_1', 'E5_1']
+IP Expert Test['E2_1', 'E4_1']
+IP Expert Val['E1_1', 'E2_2']
+OOP Novice Train['N2', 'N4', 'N6', 'N8', 'N10', 'N14', 'N22', 'N26', 'N36', 'N38', 'N40']
+OOP Novice Test['N18', 'N30', 'N32', 'N34']
+OOP Novice Val['N12', 'N16', 'N20', 'N24']
+OOP Expert Train['E2_2', 'E4_1', 'E5_1']
+OOP Expert Test['E1_2', 'E3_1']
+OOP Expert Val['E1_1', 'E2_1']
+IP val
+{'N1': {'data': ['N1_B.csv', 'N1_T1.csv', 'N1_T2.csv', 'N1_T3.csv', 'N1_T4.csv', 'N1_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N27': {'data': ['N27_B.csv', 'N27_T1.csv', 'N27_T2.csv', 'N27_T3.csv', 'N27_T4.csv', 'N27_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N29': {'data': ['N29_B.csv', 'N29_T1.csv', 'N29_T2.csv', 'N29_T3.csv', 'N29_T4.csv', 'N29_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N31': {'data': ['N31_B.csv', 'N31_T1.csv', 'N31_T2.csv', 'N31_T3.csv', 'N31_T4.csv', 'N31_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'E1_1': {'data': ['E1_1.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'E2_2': {'data': ['E2_2.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}}
+IP test
+{'N5': {'data': ['N5_B.csv', 'N5_T1.csv', 'N5_T2.csv', 'N5_T3.csv', 'N5_T4.csv', 'N5_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N17': {'data': ['N17_B.csv', 'N17_T1.csv', 'N17_T2.csv', 'N17_T3.csv', 'N17_T4.csv', 'N17_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N35': {'data': ['N35_B.csv', 'N35_T1.csv', 'N35_T2.csv', 'N35_T3.csv', 'N35_T4.csv', 'N35_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N37': {'data': ['N37_B.csv', 'N37_T1.csv', 'N37_T2.csv', 'N37_T3.csv', 'N37_T4.csv', 'N37_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'E2_1': {'data': ['E2_1.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'E4_1': {'data': ['E4_1.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}}
+OOP val
+{'N12': {'data': ['N12_B.csv', 'N12_T1.csv', 'N12_T2.csv', 'N12_T3.csv', 'N12_T4.csv', 'N12_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N16': {'data': ['N16_B.csv', 'N16_T1.csv', 'N16_T2.csv', 'N16_T3.csv', 'N16_T4.csv', 'N16_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N20': {'data': ['N20_B.csv', 'N20_T1.csv', 'N20_T2.csv', 'N20_T3.csv', 'N20_T4.csv', 'N20_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N24': {'data': ['N24_B.csv', 'N24_T1.csv', 'N24_T2.csv', 'N24_T3.csv', 'N24_T4.csv', 'N24_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'E1_1': {'data': ['E1_1.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'E2_1': {'data': ['E2_1.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}}
+OOP test
+{'N18': {'data': ['N18_B.csv', 'N18_T1.csv', 'N18_T2.csv', 'N18_T3.csv', 'N18_T4.csv', 'N18_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N30': {'data': ['N30_B.csv', 'N30_T1.csv', 'N30_T2.csv', 'N30_T3.csv', 'N30_T4.csv', 'N30_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N32': {'data': ['N32_B.csv', 'N32_T1.csv', 'N32_T2.csv', 'N32_T3.csv', 'N32_T4.csv', 'N32_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N34': {'data': ['N34_B.csv', 'N34_T1.csv', 'N34_T2.csv', 'N34_T3.csv', 'N34_T4.csv', 'N34_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'E1_2': {'data': ['E1_2.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'E3_1': {'data': ['E3_1.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}}
+N1_B.csv
+./allData/IP/
+Use CPU
+>>>>>>>start validating IP: informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.057838365
+done validating
+N1_T1.csv
+./allData/IP/
+Use CPU
+>>>>>>>start validating IP: informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.062025636
+done validating
+N1_T2.csv
+./allData/IP/
+Use CPU
+>>>>>>>start validating IP: informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.060400918
+done validating
+N1_T3.csv
+./allData/IP/
+Use CPU
+>>>>>>>start validating IP: informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.060899377
+done validating
+N1_T4.csv
+./allData/IP/
+Use CPU
+>>>>>>>start validating IP: informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.06424239
+done validating
+N1_F.csv
+./allData/IP/
+Use CPU
+>>>>>>>start validating IP: informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.06304785
+done validating
+N27_B.csv
+./allData/IP/
+Use CPU
+>>>>>>>start validating IP: informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.057607025
+done validating
+N27_T1.csv
+./allData/IP/
+Use CPU
+>>>>>>>start validating IP: informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.0625827
+done validating
+N27_T2.csv
+./allData/IP/
+Use CPU
+>>>>>>>start validating IP: informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.05914175
+done validating
+N27_T3.csv
+./allData/IP/
+Use CPU
+>>>>>>>start validating IP: informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.058216408
+done validating
+N27_T4.csv
+./allData/IP/
+Use CPU
+>>>>>>>start validating IP: informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.0593579
+done validating
+N27_F.csv
+./allData/IP/
+Use CPU
+>>>>>>>start validating IP: informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.06132426
+done validating
+N29_B.csv
+./allData/IP/
+Use CPU
+>>>>>>>start validating IP: informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.06251164
+done validating
+N29_T1.csv
+./allData/IP/
+Use CPU
+>>>>>>>start validating IP: informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.05497074
+done validating
+N29_T2.csv
+./allData/IP/
+Use CPU
+>>>>>>>start validating IP: informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.06133457
+done validating
+N29_T3.csv
+./allData/IP/
+Use CPU
+>>>>>>>start validating IP: informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.062007494
+done validating
+N29_T4.csv
+./allData/IP/
+Use CPU
+>>>>>>>start validating IP: informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.057441246
+done validating
+N29_F.csv
+./allData/IP/
+Use CPU
+>>>>>>>start validating IP: informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.05967819
+done validating
+N31_B.csv
+./allData/IP/
+Use CPU
+>>>>>>>start validating IP: informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.061537612
+done validating
+N31_T1.csv
+./allData/IP/
+Use CPU
+>>>>>>>start validating IP: informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.05843284
+done validating
+N31_T2.csv
+./allData/IP/
+Use CPU
+>>>>>>>start validating IP: informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.059705094
+done validating
+N31_T3.csv
+./allData/IP/
+Use CPU
+>>>>>>>start validating IP: informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.04858516
+done validating
+N31_T4.csv
+./allData/IP/
+Use CPU
+>>>>>>>start validating IP: informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.05369421
+done validating
+N31_F.csv
+./allData/IP/
+Use CPU
+>>>>>>>start validating IP: informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.062972605
+done validating
+E1_1.csv
+./allData/IP/
+Use CPU
+>>>>>>>start validating IP: informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.16037929
+done validating
+E2_2.csv
+./allData/IP/
+Use CPU
+>>>>>>>start validating IP: informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2406
+0.08989332
+done validating
+N12_B.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start validating : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.7917286
+done validating
+N12_T1.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start validating : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.31621248
+done validating
+N12_T2.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start validating : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.3940189
+done validating
+N12_T3.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start validating : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.26380056
+done validating
+N12_T4.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start validating : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.3171867
+done validating
+N12_F.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start validating : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.2635491
+done validating
+N16_B.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start validating : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.34067437
+done validating
+N16_T1.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start validating : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.15517776
+done validating
+N16_T2.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start validating : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.34905404
+done validating
+N16_T3.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start validating : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.11471586
+done validating
+N16_T4.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start validating : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.2836339
+done validating
+N16_F.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start validating : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.84081066
+done validating
+N20_B.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start validating : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.50876635
+done validating
+N20_T1.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start validating : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.11778046
+done validating
+N20_T2.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start validating : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.37404498
+done validating
+N20_T3.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start validating : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.22601715
+done validating
+N20_T4.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start validating : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.35571402
+done validating
+N20_F.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start validating : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.18385738
+done validating
+N24_B.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start validating : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.36029524
+done validating
+N24_T1.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start validating : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.50801724
+done validating
+N24_T2.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start validating : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.25036925
+done validating
+N24_T3.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start validating : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.08419317
+done validating
+N24_T4.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start validating : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.28957927
+done validating
+N24_F.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start validating : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2407
+0.43500185
+done validating
+E1_1.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start validating : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2406
+1.3386679
+done validating
+E2_1.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start validating : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2406
+0.74077547
+done validating

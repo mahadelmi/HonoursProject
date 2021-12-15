@@ -1,0 +1,88 @@
+IP Novices T: [5, 17, 35, 37]
+IP Experts T: [6, 4]
+IP Novices V: [27, 29, 1, 31]
+IP Experts V: [3, 2]
+OOP Novices T: [30, 32, 18, 34]
+OOP Experts T: [5, 1]
+OOP Novices V: [16, 24, 12, 20]
+OOP Experts V: [4, 2]
+IP Novice Train['N3', 'N7', 'N9', 'N11', 'N13', 'N15', 'N19', 'N21', 'N25', 'N33', 'N39']
+IP Novice Test['N5', 'N17', 'N35', 'N37']
+IP Novice Val['N1', 'N27', 'N29', 'N31']
+IP Expert Train['E1_2', 'E3_1', 'E5_1']
+IP Expert Test['E2_1', 'E4_1']
+IP Expert Val['E1_1', 'E2_2']
+OOP Novice Train['N2', 'N4', 'N6', 'N8', 'N10', 'N14', 'N22', 'N26', 'N36', 'N38', 'N40']
+OOP Novice Test['N18', 'N30', 'N32', 'N34']
+OOP Novice Val['N12', 'N16', 'N20', 'N24']
+OOP Expert Train['E2_2', 'E4_1', 'E5_1']
+OOP Expert Test['E1_2', 'E3_1']
+OOP Expert Val['E1_1', 'E2_1']
+IP train
+{'N3': {'data': ['N3_B.csv', 'N3_T1.csv', 'N3_T2.csv', 'N3_T3.csv', 'N3_T4.csv', 'N3_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N7': {'data': ['N7_B.csv', 'N7_T1.csv', 'N7_T2.csv', 'N7_T3.csv', 'N7_T4.csv', 'N7_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N9': {'data': ['N9_B.csv', 'N9_T1.csv', 'N9_T2.csv', 'N9_T3.csv', 'N9_T4.csv', 'N9_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N11': {'data': ['N11_B.csv', 'N11_T1.csv', 'N11_T2.csv', 'N11_T3.csv', 'N11_T4.csv', 'N11_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N13': {'data': ['N13_B.csv', 'N13_T1.csv', 'N13_T2.csv', 'N13_T3.csv', 'N13_T4.csv', 'N13_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N15': {'data': ['N15_B.csv', 'N15_T1.csv', 'N15_T2.csv', 'N15_T3.csv', 'N15_T4.csv', 'N15_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N19': {'data': ['N19_B.csv', 'N19_T1.csv', 'N19_T2.csv', 'N19_T3.csv', 'N19_T4.csv', 'N19_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N21': {'data': ['N21_B.csv', 'N21_T1.csv', 'N21_T2.csv', 'N21_T3.csv', 'N21_T4.csv', 'N21_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N25': {'data': ['N25_B.csv', 'N25_T1.csv', 'N25_T2.csv', 'N25_T3.csv', 'N25_T4.csv', 'N25_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N33': {'data': ['N33_B.csv', 'N33_T1.csv', 'N33_T2.csv', 'N33_T3.csv', 'N33_T4.csv', 'N33_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N39': {'data': ['N39_B.csv', 'N39_T1.csv', 'N39_T2.csv', 'N39_T3.csv', 'N39_T4.csv', 'N39_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'E1_2': {'data': ['E1_2.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'E3_1': {'data': ['E3_1.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'E5_1': {'data': ['E5_1.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}}
+IP test
+{'N5': {'data': ['N5_B.csv', 'N5_T1.csv', 'N5_T2.csv', 'N5_T3.csv', 'N5_T4.csv', 'N5_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N17': {'data': ['N17_B.csv', 'N17_T1.csv', 'N17_T2.csv', 'N17_T3.csv', 'N17_T4.csv', 'N17_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N35': {'data': ['N35_B.csv', 'N35_T1.csv', 'N35_T2.csv', 'N35_T3.csv', 'N35_T4.csv', 'N35_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N37': {'data': ['N37_B.csv', 'N37_T1.csv', 'N37_T2.csv', 'N37_T3.csv', 'N37_T4.csv', 'N37_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'E2_1': {'data': ['E2_1.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'E4_1': {'data': ['E4_1.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}}
+OOP train
+{'N2': {'data': ['N2_B.csv', 'N2_T1.csv', 'N2_T2.csv', 'N2_T3.csv', 'N2_T4.csv', 'N2_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N4': {'data': ['N4_B.csv', 'N4_T1.csv', 'N4_T2.csv', 'N4_T3.csv', 'N4_T4.csv', 'N4_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N6': {'data': ['N6_B.csv', 'N6_T1.csv', 'N6_T2.csv', 'N6_T3.csv', 'N6_T4.csv', 'N6_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N8': {'data': ['N8_B.csv', 'N8_T1.csv', 'N8_T2.csv', 'N8_T3.csv', 'N8_T4.csv', 'N8_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N10': {'data': ['N10_B.csv', 'N10_T1.csv', 'N10_T2.csv', 'N10_T3.csv', 'N10_T4.csv', 'N10_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N14': {'data': ['N14_B.csv', 'N14_T1.csv', 'N14_T2.csv', 'N14_T3.csv', 'N14_T4.csv', 'N14_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N22': {'data': ['N22_B.csv', 'N22_T1.csv', 'N22_T2.csv', 'N22_T3.csv', 'N22_T4.csv', 'N22_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N26': {'data': ['N26_B.csv', 'N26_T1.csv', 'N26_T2.csv', 'N26_T3.csv', 'N26_T4.csv', 'N26_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N36': {'data': ['N36_B.csv', 'N36_T1.csv', 'N36_T2.csv', 'N36_T3.csv', 'N36_T4.csv', 'N36_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N38': {'data': ['N38_B.csv', 'N38_T1.csv', 'N38_T2.csv', 'N38_T3.csv', 'N38_T4.csv', 'N38_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N40': {'data': ['N40_B.csv', 'N40_T1.csv', 'N40_T2.csv', 'N40_T3.csv', 'N40_T4.csv', 'N40_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'E2_2': {'data': ['E2_2.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'E4_1': {'data': ['E4_1.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'E5_1': {'data': ['E5_1.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}}
+OOP test
+{'N18': {'data': ['N18_B.csv', 'N18_T1.csv', 'N18_T2.csv', 'N18_T3.csv', 'N18_T4.csv', 'N18_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N30': {'data': ['N30_B.csv', 'N30_T1.csv', 'N30_T2.csv', 'N30_T3.csv', 'N30_T4.csv', 'N30_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N32': {'data': ['N32_B.csv', 'N32_T1.csv', 'N32_T2.csv', 'N32_T3.csv', 'N32_T4.csv', 'N32_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N34': {'data': ['N34_B.csv', 'N34_T1.csv', 'N34_T2.csv', 'N34_T3.csv', 'N34_T4.csv', 'N34_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'E1_2': {'data': ['E1_2.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'E3_1': {'data': ['E3_1.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}}
+------------------------------------------------------------------------------------------------------------------------------
+Use CPU
+./informer_checkpoints/IP
+./allData/IP/
+N5_B.csv
+test 2407
+test shape: (2, 1024, 24, 1) (2, 1024, 24, 1)
+test shape: (2048, 24) (2048, 24)
+(2048, 24)
+N5_T1.csv
+test 2407
+test shape: (2, 1024, 24, 1) (2, 1024, 24, 1)
+test shape: (2048, 24) (2048, 24)
+(4096, 24)
+N5_T2.csv
+test 2407
+test shape: (2, 1024, 24, 1) (2, 1024, 24, 1)
+test shape: (2048, 24) (2048, 24)
+(6144, 24)
+N5_T3.csv
+test 2407
+test shape: (2, 1024, 24, 1) (2, 1024, 24, 1)
+test shape: (2048, 24) (2048, 24)
+(8192, 24)
+N5_T4.csv
+test 2407
+test shape: (2, 1024, 24, 1) (2, 1024, 24, 1)
+test shape: (2048, 24) (2048, 24)
+(10240, 24)
+N5_F.csv
+test 2407
+test shape: (2, 1024, 24, 1) (2, 1024, 24, 1)
+test shape: (2048, 24) (2048, 24)
+(12288, 24)
+N17_B.csv
+test 2407
+test shape: (2, 1024, 24, 1) (2, 1024, 24, 1)
+test shape: (2048, 24) (2048, 24)
+(14336, 24)
+N17_T1.csv
+test 2407
+test shape: (2, 1024, 24, 1) (2, 1024, 24, 1)
+test shape: (2048, 24) (2048, 24)
+(16384, 24)
+N17_T2.csv
+test 2407
+test shape: (2, 1024, 24, 1) (2, 1024, 24, 1)
+test shape: (2048, 24) (2048, 24)
+(18432, 24)
+N17_T3.csv
+test 2407
+test shape: (2, 1024, 24, 1) (2, 1024, 24, 1)
+test shape: (2048, 24) (2048, 24)
+(20480, 24)
+N17_T4.csv
+test 2407
+test shape: (2, 1024, 24, 1) (2, 1024, 24, 1)
+test shape: (2048, 24) (2048, 24)
+(22528, 24)
+N17_F.csv

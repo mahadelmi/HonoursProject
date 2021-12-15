@@ -1,0 +1,1270 @@
+IP Novices T: [5, 17, 35, 37]
+IP Experts T: [6, 4]
+IP Novices V: [27, 29, 1, 31]
+IP Experts V: [3, 2]
+OOP Novices T: [30, 32, 18, 34]
+OOP Experts T: [5, 1]
+OOP Novices V: [16, 24, 12, 20]
+OOP Experts V: [4, 2]
+IP Novice Train['N3', 'N7', 'N9', 'N11', 'N13', 'N15', 'N19', 'N21', 'N25', 'N33', 'N39']
+IP Novice Test['N5', 'N17', 'N35', 'N37']
+IP Novice Val['N1', 'N27', 'N29', 'N31']
+IP Expert Train['E1_2', 'E3_1', 'E5_1']
+IP Expert Test['E2_1', 'E4_1']
+IP Expert Val['E1_1', 'E2_2']
+OOP Novice Train['N2', 'N4', 'N6', 'N8', 'N10', 'N14', 'N22', 'N26', 'N36', 'N38', 'N40']
+OOP Novice Test['N18', 'N30', 'N32', 'N34']
+OOP Novice Val['N12', 'N16', 'N20', 'N24']
+OOP Expert Train['E2_2', 'E4_1', 'E5_1']
+OOP Expert Test['E1_2', 'E3_1']
+OOP Expert Val['E1_1', 'E2_1']
+IP train
+{'N3': {'data': ['N3_B.csv', 'N3_T1.csv', 'N3_T2.csv', 'N3_T3.csv', 'N3_T4.csv', 'N3_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N7': {'data': ['N7_B.csv', 'N7_T1.csv', 'N7_T2.csv', 'N7_T3.csv', 'N7_T4.csv', 'N7_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N9': {'data': ['N9_B.csv', 'N9_T1.csv', 'N9_T2.csv', 'N9_T3.csv', 'N9_T4.csv', 'N9_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N11': {'data': ['N11_B.csv', 'N11_T1.csv', 'N11_T2.csv', 'N11_T3.csv', 'N11_T4.csv', 'N11_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N13': {'data': ['N13_B.csv', 'N13_T1.csv', 'N13_T2.csv', 'N13_T3.csv', 'N13_T4.csv', 'N13_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N15': {'data': ['N15_B.csv', 'N15_T1.csv', 'N15_T2.csv', 'N15_T3.csv', 'N15_T4.csv', 'N15_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N19': {'data': ['N19_B.csv', 'N19_T1.csv', 'N19_T2.csv', 'N19_T3.csv', 'N19_T4.csv', 'N19_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N21': {'data': ['N21_B.csv', 'N21_T1.csv', 'N21_T2.csv', 'N21_T3.csv', 'N21_T4.csv', 'N21_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N25': {'data': ['N25_B.csv', 'N25_T1.csv', 'N25_T2.csv', 'N25_T3.csv', 'N25_T4.csv', 'N25_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N33': {'data': ['N33_B.csv', 'N33_T1.csv', 'N33_T2.csv', 'N33_T3.csv', 'N33_T4.csv', 'N33_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N39': {'data': ['N39_B.csv', 'N39_T1.csv', 'N39_T2.csv', 'N39_T3.csv', 'N39_T4.csv', 'N39_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'E1_2': {'data': ['E1_2.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'E3_1': {'data': ['E3_1.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'E5_1': {'data': ['E5_1.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}}
+IP test
+{'N5': {'data': ['N5_B.csv', 'N5_T1.csv', 'N5_T2.csv', 'N5_T3.csv', 'N5_T4.csv', 'N5_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N17': {'data': ['N17_B.csv', 'N17_T1.csv', 'N17_T2.csv', 'N17_T3.csv', 'N17_T4.csv', 'N17_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N35': {'data': ['N35_B.csv', 'N35_T1.csv', 'N35_T2.csv', 'N35_T3.csv', 'N35_T4.csv', 'N35_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N37': {'data': ['N37_B.csv', 'N37_T1.csv', 'N37_T2.csv', 'N37_T3.csv', 'N37_T4.csv', 'N37_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'E2_1': {'data': ['E2_1.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'E4_1': {'data': ['E4_1.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}}
+OOP train
+{'N2': {'data': ['N2_B.csv', 'N2_T1.csv', 'N2_T2.csv', 'N2_T3.csv', 'N2_T4.csv', 'N2_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N4': {'data': ['N4_B.csv', 'N4_T1.csv', 'N4_T2.csv', 'N4_T3.csv', 'N4_T4.csv', 'N4_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N6': {'data': ['N6_B.csv', 'N6_T1.csv', 'N6_T2.csv', 'N6_T3.csv', 'N6_T4.csv', 'N6_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N8': {'data': ['N8_B.csv', 'N8_T1.csv', 'N8_T2.csv', 'N8_T3.csv', 'N8_T4.csv', 'N8_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N10': {'data': ['N10_B.csv', 'N10_T1.csv', 'N10_T2.csv', 'N10_T3.csv', 'N10_T4.csv', 'N10_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N14': {'data': ['N14_B.csv', 'N14_T1.csv', 'N14_T2.csv', 'N14_T3.csv', 'N14_T4.csv', 'N14_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N22': {'data': ['N22_B.csv', 'N22_T1.csv', 'N22_T2.csv', 'N22_T3.csv', 'N22_T4.csv', 'N22_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N26': {'data': ['N26_B.csv', 'N26_T1.csv', 'N26_T2.csv', 'N26_T3.csv', 'N26_T4.csv', 'N26_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N36': {'data': ['N36_B.csv', 'N36_T1.csv', 'N36_T2.csv', 'N36_T3.csv', 'N36_T4.csv', 'N36_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N38': {'data': ['N38_B.csv', 'N38_T1.csv', 'N38_T2.csv', 'N38_T3.csv', 'N38_T4.csv', 'N38_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N40': {'data': ['N40_B.csv', 'N40_T1.csv', 'N40_T2.csv', 'N40_T3.csv', 'N40_T4.csv', 'N40_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'E2_2': {'data': ['E2_2.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'E4_1': {'data': ['E4_1.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'E5_1': {'data': ['E5_1.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}}
+OOP test
+{'N18': {'data': ['N18_B.csv', 'N18_T1.csv', 'N18_T2.csv', 'N18_T3.csv', 'N18_T4.csv', 'N18_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N30': {'data': ['N30_B.csv', 'N30_T1.csv', 'N30_T2.csv', 'N30_T3.csv', 'N30_T4.csv', 'N30_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N32': {'data': ['N32_B.csv', 'N32_T1.csv', 'N32_T2.csv', 'N32_T3.csv', 'N32_T4.csv', 'N32_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'N34': {'data': ['N34_B.csv', 'N34_T1.csv', 'N34_T2.csv', 'N34_T3.csv', 'N34_T4.csv', 'N34_F.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'E1_2': {'data': ['E1_2.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}, 'E3_1': {'data': ['E3_1.csv'], 'T': 'Skill', 'M': [7, 7, 7], 'S': [1, 1, 1], 'MS': [13, 13, 1]}}
+N3_B.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 73.42803311347961
+Epoch: 1, Steps: 2 | Train Loss: 0.0760864 
+Updating learning rate to 1e-05
+done training
+N3_T1.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.81233048439026
+Epoch: 1, Steps: 2 | Train Loss: 0.0857520 
+Updating learning rate to 1e-05
+done training
+N3_T2.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.05110597610474
+Epoch: 1, Steps: 2 | Train Loss: 0.1470438 
+Updating learning rate to 1e-05
+done training
+N3_T3.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.81036281585693
+Epoch: 1, Steps: 2 | Train Loss: 0.1445873 
+Updating learning rate to 1e-05
+done training
+N3_T4.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.80669069290161
+Epoch: 1, Steps: 2 | Train Loss: 0.0909595 
+Updating learning rate to 1e-05
+done training
+N3_F.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.29937696456909
+Epoch: 1, Steps: 2 | Train Loss: 0.0706789 
+Updating learning rate to 1e-05
+done training
+N7_B.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.32110357284546
+Epoch: 1, Steps: 2 | Train Loss: 0.0360678 
+Updating learning rate to 1e-05
+done training
+N7_T1.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.33424377441406
+Epoch: 1, Steps: 2 | Train Loss: 0.0499592 
+Updating learning rate to 1e-05
+done training
+N7_T2.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.28875303268433
+Epoch: 1, Steps: 2 | Train Loss: 0.0229128 
+Updating learning rate to 1e-05
+done training
+N7_T3.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.06437683105469
+Epoch: 1, Steps: 2 | Train Loss: 0.0246934 
+Updating learning rate to 1e-05
+done training
+N7_T4.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.24098062515259
+Epoch: 1, Steps: 2 | Train Loss: 0.0245571 
+Updating learning rate to 1e-05
+done training
+N7_F.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.91910219192505
+Epoch: 1, Steps: 2 | Train Loss: 0.0285767 
+Updating learning rate to 1e-05
+done training
+N9_B.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.31062316894531
+Epoch: 1, Steps: 2 | Train Loss: 0.0771871 
+Updating learning rate to 1e-05
+done training
+N9_T1.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.40872192382812
+Epoch: 1, Steps: 2 | Train Loss: 0.0316469 
+Updating learning rate to 1e-05
+done training
+N9_T2.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.40593099594116
+Epoch: 1, Steps: 2 | Train Loss: 0.0213426 
+Updating learning rate to 1e-05
+done training
+N9_T3.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.35562443733215
+Epoch: 1, Steps: 2 | Train Loss: 0.0303923 
+Updating learning rate to 1e-05
+done training
+N9_T4.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.18608164787292
+Epoch: 1, Steps: 2 | Train Loss: 0.0164340 
+Updating learning rate to 1e-05
+done training
+N9_F.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.22001266479492
+Epoch: 1, Steps: 2 | Train Loss: 0.0176657 
+Updating learning rate to 1e-05
+done training
+N11_B.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.22049260139465
+Epoch: 1, Steps: 2 | Train Loss: 0.0246458 
+Updating learning rate to 1e-05
+done training
+N11_T1.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.16919136047363
+Epoch: 1, Steps: 2 | Train Loss: 0.0308766 
+Updating learning rate to 1e-05
+done training
+N11_T2.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.09287357330322
+Epoch: 1, Steps: 2 | Train Loss: 0.0374058 
+Updating learning rate to 1e-05
+done training
+N11_T3.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.27469968795776
+Epoch: 1, Steps: 2 | Train Loss: 0.0255745 
+Updating learning rate to 1e-05
+done training
+N11_T4.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.52677202224731
+Epoch: 1, Steps: 2 | Train Loss: 0.0239295 
+Updating learning rate to 1e-05
+done training
+N11_F.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.15538907051086
+Epoch: 1, Steps: 2 | Train Loss: 0.0179170 
+Updating learning rate to 1e-05
+done training
+N13_B.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.30760717391968
+Epoch: 1, Steps: 2 | Train Loss: 0.0169259 
+Updating learning rate to 1e-05
+done training
+N13_T1.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.34167647361755
+Epoch: 1, Steps: 2 | Train Loss: 0.0378076 
+Updating learning rate to 1e-05
+done training
+N13_T2.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.4068968296051
+Epoch: 1, Steps: 2 | Train Loss: 0.0187224 
+Updating learning rate to 1e-05
+done training
+N13_T3.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.50134205818176
+Epoch: 1, Steps: 2 | Train Loss: 0.0203516 
+Updating learning rate to 1e-05
+done training
+N13_T4.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.36570739746094
+Epoch: 1, Steps: 2 | Train Loss: 0.0156894 
+Updating learning rate to 1e-05
+done training
+N13_F.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.13046717643738
+Epoch: 1, Steps: 2 | Train Loss: 0.0159295 
+Updating learning rate to 1e-05
+done training
+N15_B.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.9994215965271
+Epoch: 1, Steps: 2 | Train Loss: 0.0156642 
+Updating learning rate to 1e-05
+done training
+N15_T1.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.17063760757446
+Epoch: 1, Steps: 2 | Train Loss: 0.0156156 
+Updating learning rate to 1e-05
+done training
+N15_T2.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.2769181728363
+Epoch: 1, Steps: 2 | Train Loss: 0.0174987 
+Updating learning rate to 1e-05
+done training
+N15_T3.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.36693716049194
+Epoch: 1, Steps: 2 | Train Loss: 0.0152956 
+Updating learning rate to 1e-05
+done training
+N15_T4.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.51942729949951
+Epoch: 1, Steps: 2 | Train Loss: 0.0156984 
+Updating learning rate to 1e-05
+done training
+N15_F.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.96309161186218
+Epoch: 1, Steps: 2 | Train Loss: 0.0171336 
+Updating learning rate to 1e-05
+done training
+N19_B.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.25727558135986
+Epoch: 1, Steps: 2 | Train Loss: 0.0151148 
+Updating learning rate to 1e-05
+done training
+N19_T1.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.30469036102295
+Epoch: 1, Steps: 2 | Train Loss: 0.0147076 
+Updating learning rate to 1e-05
+done training
+N19_T2.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.98527884483337
+Epoch: 1, Steps: 2 | Train Loss: 0.0138975 
+Updating learning rate to 1e-05
+done training
+N19_T3.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.98931837081909
+Epoch: 1, Steps: 2 | Train Loss: 0.0141435 
+Updating learning rate to 1e-05
+done training
+N19_T4.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.93489503860474
+Epoch: 1, Steps: 2 | Train Loss: 0.0138438 
+Updating learning rate to 1e-05
+done training
+N19_F.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.8737301826477
+Epoch: 1, Steps: 2 | Train Loss: 0.0134012 
+Updating learning rate to 1e-05
+done training
+N21_B.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.95422625541687
+Epoch: 1, Steps: 2 | Train Loss: 0.0138075 
+Updating learning rate to 1e-05
+done training
+N21_T1.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.85409307479858
+Epoch: 1, Steps: 2 | Train Loss: 0.0152195 
+Updating learning rate to 1e-05
+done training
+N21_T2.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.72887372970581
+Epoch: 1, Steps: 2 | Train Loss: 0.0156485 
+Updating learning rate to 1e-05
+done training
+N21_T3.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.69616889953613
+Epoch: 1, Steps: 2 | Train Loss: 0.0138960 
+Updating learning rate to 1e-05
+done training
+N21_T4.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.58625888824463
+Epoch: 1, Steps: 2 | Train Loss: 0.0136662 
+Updating learning rate to 1e-05
+done training
+N21_F.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.6837842464447
+Epoch: 1, Steps: 2 | Train Loss: 0.0139256 
+Updating learning rate to 1e-05
+done training
+N25_B.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 73.2460389137268
+Epoch: 1, Steps: 2 | Train Loss: 0.0211079 
+Updating learning rate to 1e-05
+done training
+N25_T1.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.84174919128418
+Epoch: 1, Steps: 2 | Train Loss: 0.0156711 
+Updating learning rate to 1e-05
+done training
+N25_T2.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.65766787528992
+Epoch: 1, Steps: 2 | Train Loss: 0.0137674 
+Updating learning rate to 1e-05
+done training
+N25_T3.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 73.22457265853882
+Epoch: 1, Steps: 2 | Train Loss: 0.0144860 
+Updating learning rate to 1e-05
+done training
+N25_T4.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.64086818695068
+Epoch: 1, Steps: 2 | Train Loss: 0.0155900 
+Updating learning rate to 1e-05
+done training
+N25_F.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.781409740448
+Epoch: 1, Steps: 2 | Train Loss: 0.0146526 
+Updating learning rate to 1e-05
+done training
+N33_B.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.64056921005249
+Epoch: 1, Steps: 2 | Train Loss: 0.0135471 
+Updating learning rate to 1e-05
+done training
+N33_T1.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.40437459945679
+Epoch: 1, Steps: 2 | Train Loss: 0.0137788 
+Updating learning rate to 1e-05
+done training
+N33_T2.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.30113196372986
+Epoch: 1, Steps: 2 | Train Loss: 0.0137391 
+Updating learning rate to 1e-05
+done training
+N33_T3.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 73.38623142242432
+Epoch: 1, Steps: 2 | Train Loss: 0.0135594 
+Updating learning rate to 1e-05
+done training
+N33_T4.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.29177522659302
+Epoch: 1, Steps: 2 | Train Loss: 0.0131846 
+Updating learning rate to 1e-05
+done training
+N33_F.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 73.59596228599548
+Epoch: 1, Steps: 2 | Train Loss: 0.0130750 
+Updating learning rate to 1e-05
+done training
+N39_B.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 73.7413055896759
+Epoch: 1, Steps: 2 | Train Loss: 0.0133857 
+Updating learning rate to 1e-05
+done training
+N39_T1.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 73.687007188797
+Epoch: 1, Steps: 2 | Train Loss: 0.0140813 
+Updating learning rate to 1e-05
+done training
+N39_T2.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 74.99504065513611
+Epoch: 1, Steps: 2 | Train Loss: 0.0164802 
+Updating learning rate to 1e-05
+done training
+N39_T3.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 74.12359881401062
+Epoch: 1, Steps: 2 | Train Loss: 0.0129350 
+Updating learning rate to 1e-05
+done training
+N39_T4.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.41015577316284
+Epoch: 1, Steps: 2 | Train Loss: 0.0133890 
+Updating learning rate to 1e-05
+done training
+N39_F.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.90740847587585
+Epoch: 1, Steps: 2 | Train Loss: 0.0136029 
+Updating learning rate to 1e-05
+done training
+E1_2.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2406
+Epoch: 1 cost time: 72.14949250221252
+Epoch: 1, Steps: 2 | Train Loss: 0.1174412 
+Updating learning rate to 1e-05
+done training
+E3_1.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2406
+Epoch: 1 cost time: 72.03124833106995
+Epoch: 1, Steps: 2 | Train Loss: 0.1027392 
+Updating learning rate to 1e-05
+done training
+E5_1.csv
+./allData/IP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2406
+Epoch: 1 cost time: 72.44233655929565
+Epoch: 1, Steps: 2 | Train Loss: 0.0647748 
+Updating learning rate to 1e-05
+done training
+N2_B.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.43434834480286
+Epoch: 1, Steps: 2 | Train Loss: 0.0702766 
+Updating learning rate to 1e-05
+done training
+N2_T1.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.0437331199646
+Epoch: 1, Steps: 2 | Train Loss: 0.2384928 
+Updating learning rate to 1e-05
+done training
+N2_T2.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.9848301410675
+Epoch: 1, Steps: 2 | Train Loss: 0.1873826 
+Updating learning rate to 1e-05
+done training
+N2_T3.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.9010534286499
+Epoch: 1, Steps: 2 | Train Loss: 0.1747464 
+Updating learning rate to 1e-05
+done training
+N2_T4.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.76740622520447
+Epoch: 1, Steps: 2 | Train Loss: 0.1091483 
+Updating learning rate to 1e-05
+done training
+N2_F.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.67217254638672
+Epoch: 1, Steps: 2 | Train Loss: 0.0510561 
+Updating learning rate to 1e-05
+done training
+N4_B.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.09377145767212
+Epoch: 1, Steps: 2 | Train Loss: 0.0261014 
+Updating learning rate to 1e-05
+done training
+N4_T1.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.03487539291382
+Epoch: 1, Steps: 2 | Train Loss: 0.0334861 
+Updating learning rate to 1e-05
+done training
+N4_T2.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.98896503448486
+Epoch: 1, Steps: 2 | Train Loss: 0.0312068 
+Updating learning rate to 1e-05
+done training
+N4_T3.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.26924729347229
+Epoch: 1, Steps: 2 | Train Loss: 0.0494405 
+Updating learning rate to 1e-05
+done training
+N4_T4.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.24651551246643
+Epoch: 1, Steps: 2 | Train Loss: 0.0656490 
+Updating learning rate to 1e-05
+done training
+N4_F.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 73.14419960975647
+Epoch: 1, Steps: 2 | Train Loss: 0.0253001 
+Updating learning rate to 1e-05
+done training
+N6_B.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.97351145744324
+Epoch: 1, Steps: 2 | Train Loss: 0.0669608 
+Updating learning rate to 1e-05
+done training
+N6_T1.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.42417335510254
+Epoch: 1, Steps: 2 | Train Loss: 0.0325704 
+Updating learning rate to 1e-05
+done training
+N6_T2.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.45733284950256
+Epoch: 1, Steps: 2 | Train Loss: 0.0202614 
+Updating learning rate to 1e-05
+done training
+N6_T3.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.56594681739807
+Epoch: 1, Steps: 2 | Train Loss: 0.0213652 
+Updating learning rate to 1e-05
+done training
+N6_T4.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.44380855560303
+Epoch: 1, Steps: 2 | Train Loss: 0.0260568 
+Updating learning rate to 1e-05
+done training
+N6_F.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.49517726898193
+Epoch: 1, Steps: 2 | Train Loss: 0.0231029 
+Updating learning rate to 1e-05
+done training
+N8_B.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.21458649635315
+Epoch: 1, Steps: 2 | Train Loss: 0.0355173 
+Updating learning rate to 1e-05
+done training
+N8_T1.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.14423513412476
+Epoch: 1, Steps: 2 | Train Loss: 0.0190544 
+Updating learning rate to 1e-05
+done training
+N8_T2.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.37482023239136
+Epoch: 1, Steps: 2 | Train Loss: 0.0181513 
+Updating learning rate to 1e-05
+done training
+N8_T3.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.11216688156128
+Epoch: 1, Steps: 2 | Train Loss: 0.0236333 
+Updating learning rate to 1e-05
+done training
+N8_T4.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.53322887420654
+Epoch: 1, Steps: 2 | Train Loss: 0.0179875 
+Updating learning rate to 1e-05
+done training
+N8_F.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.33072519302368
+Epoch: 1, Steps: 2 | Train Loss: 0.0173028 
+Updating learning rate to 1e-05
+done training
+N10_B.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.36421012878418
+Epoch: 1, Steps: 2 | Train Loss: 0.0173363 
+Updating learning rate to 1e-05
+done training
+N10_T1.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.05802702903748
+Epoch: 1, Steps: 2 | Train Loss: 0.0216442 
+Updating learning rate to 1e-05
+done training
+N10_T2.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.25782442092896
+Epoch: 1, Steps: 2 | Train Loss: 0.0198190 
+Updating learning rate to 1e-05
+done training
+N10_T3.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.58206343650818
+Epoch: 1, Steps: 2 | Train Loss: 0.0202599 
+Updating learning rate to 1e-05
+done training
+N10_T4.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.6943907737732
+Epoch: 1, Steps: 2 | Train Loss: 0.0199665 
+Updating learning rate to 1e-05
+done training
+N10_F.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.02162909507751
+Epoch: 1, Steps: 2 | Train Loss: 0.0162007 
+Updating learning rate to 1e-05
+done training
+N14_B.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.2286434173584
+Epoch: 1, Steps: 2 | Train Loss: 0.0163126 
+Updating learning rate to 1e-05
+done training
+N14_T1.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.201016664505
+Epoch: 1, Steps: 2 | Train Loss: 0.0175515 
+Updating learning rate to 1e-05
+done training
+N14_T2.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.96558094024658
+Epoch: 1, Steps: 2 | Train Loss: 0.0176282 
+Updating learning rate to 1e-05
+done training
+N14_T3.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.47094106674194
+Epoch: 1, Steps: 2 | Train Loss: 0.0175524 
+Updating learning rate to 1e-05
+done training
+N14_T4.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.09080672264099
+Epoch: 1, Steps: 2 | Train Loss: 0.0163789 
+Updating learning rate to 1e-05
+done training
+N14_F.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.58041572570801
+Epoch: 1, Steps: 2 | Train Loss: 0.0193774 
+Updating learning rate to 1e-05
+done training
+N22_B.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.70375275611877
+Epoch: 1, Steps: 2 | Train Loss: 0.0172437 
+Updating learning rate to 1e-05
+done training
+N22_T1.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.49923872947693
+Epoch: 1, Steps: 2 | Train Loss: 0.0159271 
+Updating learning rate to 1e-05
+done training
+N22_T2.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 72.95989656448364
+Epoch: 1, Steps: 2 | Train Loss: 0.0199371 
+Updating learning rate to 1e-05
+done training
+N22_T3.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.58717823028564
+Epoch: 1, Steps: 2 | Train Loss: 0.0157248 
+Updating learning rate to 1e-05
+done training
+N22_T4.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.76395726203918
+Epoch: 1, Steps: 2 | Train Loss: 0.0165711 
+Updating learning rate to 1e-05
+done training
+N22_F.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.80206227302551
+Epoch: 1, Steps: 2 | Train Loss: 0.0160282 
+Updating learning rate to 1e-05
+done training
+N26_B.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.87874627113342
+Epoch: 1, Steps: 2 | Train Loss: 0.0165271 
+Updating learning rate to 1e-05
+done training
+N26_T1.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.69880414009094
+Epoch: 1, Steps: 2 | Train Loss: 0.0151216 
+Updating learning rate to 1e-05
+done training
+N26_T2.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.67602181434631
+Epoch: 1, Steps: 2 | Train Loss: 0.0154724 
+Updating learning rate to 1e-05
+done training
+N26_T3.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.16413068771362
+Epoch: 1, Steps: 2 | Train Loss: 0.0155515 
+Updating learning rate to 1e-05
+done training
+N26_T4.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.83042526245117
+Epoch: 1, Steps: 2 | Train Loss: 0.0152392 
+Updating learning rate to 1e-05
+done training
+N26_F.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.90582013130188
+Epoch: 1, Steps: 2 | Train Loss: 0.0152109 
+Updating learning rate to 1e-05
+done training
+N36_B.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.54235529899597
+Epoch: 1, Steps: 2 | Train Loss: 0.0165988 
+Updating learning rate to 1e-05
+done training
+N36_T1.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.79557156562805
+Epoch: 1, Steps: 2 | Train Loss: 0.0167752 
+Updating learning rate to 1e-05
+done training
+N36_T2.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.3568766117096
+Epoch: 1, Steps: 2 | Train Loss: 0.0159881 
+Updating learning rate to 1e-05
+done training
+N36_T3.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.64829611778259
+Epoch: 1, Steps: 2 | Train Loss: 0.0154115 
+Updating learning rate to 1e-05
+done training
+N36_T4.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.15669560432434
+Epoch: 1, Steps: 2 | Train Loss: 0.0155496 
+Updating learning rate to 1e-05
+done training
+N36_F.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.3337972164154
+Epoch: 1, Steps: 2 | Train Loss: 0.0156424 
+Updating learning rate to 1e-05
+done training
+N38_B.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.71484613418579
+Epoch: 1, Steps: 2 | Train Loss: 0.0149597 
+Updating learning rate to 1e-05
+done training
+N38_T1.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.31771731376648
+Epoch: 1, Steps: 2 | Train Loss: 0.0150139 
+Updating learning rate to 1e-05
+done training
+N38_T2.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 70.97392201423645
+Epoch: 1, Steps: 2 | Train Loss: 0.0146928 
+Updating learning rate to 1e-05
+done training
+N38_T3.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.56001687049866
+Epoch: 1, Steps: 2 | Train Loss: 0.0152056 
+Updating learning rate to 1e-05
+done training
+N38_T4.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.33894968032837
+Epoch: 1, Steps: 2 | Train Loss: 0.0147783 
+Updating learning rate to 1e-05
+done training
+N38_F.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.61143803596497
+Epoch: 1, Steps: 2 | Train Loss: 0.0149101 
+Updating learning rate to 1e-05
+done training
+N40_B.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.65093779563904
+Epoch: 1, Steps: 2 | Train Loss: 0.0149965 
+Updating learning rate to 1e-05
+done training
+N40_T1.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.3424620628357
+Epoch: 1, Steps: 2 | Train Loss: 0.0151154 
+Updating learning rate to 1e-05
+done training
+N40_T2.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.46352672576904
+Epoch: 1, Steps: 2 | Train Loss: 0.0148001 
+Updating learning rate to 1e-05
+done training
+N40_T3.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.41754198074341
+Epoch: 1, Steps: 2 | Train Loss: 0.0154095 
+Updating learning rate to 1e-05
+done training
+N40_T4.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.60554337501526
+Epoch: 1, Steps: 2 | Train Loss: 0.0146275 
+Updating learning rate to 1e-05
+done training
+N40_F.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.38310408592224
+Epoch: 1, Steps: 2 | Train Loss: 0.0148988 
+Updating learning rate to 1e-05
+done training
+E2_2.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2406
+Epoch: 1 cost time: 71.55310320854187
+Epoch: 1, Steps: 2 | Train Loss: 0.1677671 
+Updating learning rate to 1e-05
+done training
+E4_1.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2406
+Epoch: 1 cost time: 71.72427177429199
+Epoch: 1, Steps: 2 | Train Loss: 0.1204816 
+Updating learning rate to 1e-05
+done training
+E5_1.csv
+./allData/OOP/
+Use CPU
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl24_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_exp_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 2407
+Epoch: 1 cost time: 71.80999970436096
+Epoch: 1, Steps: 2 | Train Loss: 0.0916901 
+Updating learning rate to 1e-05
+done training
